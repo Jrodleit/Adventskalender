@@ -3,27 +3,27 @@ name: Build and Deploy
 on:
   push:
     branches:
-      - main
+      - main  # Triggers the action on push to the main branch
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest  # Using an Ubuntu runner
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v3  # Checkout the repository
 
       - name: Set up Java
-        uses: actions/setup-java@v3
+        uses: actions/setup-java@v3  # Set up Java environment
         with:
-          java-version: '22'
-          distribution: 'temurin'
+          java-version: '22'  # Specify the Java version to use
+          distribution: 'temurin'  # Use the Temurin distribution of OpenJDK
 
       - name: Build with Maven
-        run: mvn package
+        run: mvn clean package  # Build the project and generate a JAR file
 
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v3  # Action for deploying to GitHub Pages
         with:
-          publish_dir: target
-          github_token: ${{ secrets.LELE}}
+          publish_dir: target  # This is the directory where Maven stores the generated JAR file
+          github_token: ${{ secrets.GITHUB_TOKEN }}  # Using the default GitHub token to authenticate

@@ -4,9 +4,9 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>htl.steyr</groupId>
-  <artifactId>AdventCalender</artifactId>
+  <artifactId>AdventsKalender</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <name>AdventCalender</name>
+  <name>AdventsKalender</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -60,7 +60,7 @@
             <!-- Default configuration for running with: mvn clean javafx:run -->
             <id>default-cli</id>
             <configuration>
-              <mainClass>htl.steyr.adventcalender.AdventCalendarApp</mainClass>
+              <mainClass>htl.steyr.adventskalender.AdventCalendarApp</mainClass>
               <launcher>app</launcher>
               <jlinkZipName>app</jlinkZipName>
               <jlinkImageName>app</jlinkImageName>

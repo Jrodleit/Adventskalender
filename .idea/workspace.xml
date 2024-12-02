@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8d1b73f-0158-418f-bf0d-cef9d762e2d5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    <list default="true" id="b8d1b73f-0158-418f-bf0d-cef9d762e2d5" name="Changes" comment="finally fertig hopefully">
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,11 +69,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1733127349089</updated>
-      <workItem from="1733127350184" duration="62000" />
+      <workItem from="1733127350184" duration="207000" />
     </task>
+    <task id="LOCAL-00001" summary="finally fertig hopefully">
+      <option name="closed" value="true" />
+      <created>1733127437372</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733127437372</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="finally fertig hopefully" />
+    <option name="LAST_COMMIT_MESSAGE" value="finally fertig hopefully" />
   </component>
 </project>

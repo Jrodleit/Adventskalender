@@ -29,7 +29,7 @@ public class AdventCalendarApp extends Application {
             "Was ist 111 in dezimaler Darstellung?",
             "Nenne ein Beispiel für eine funktionale Programmiersprache.",
             "Welches Unternehmen hat Java entwickelt?",
-            "Was ist der Standard-Port für HTTPS?",
+            "Wasa ist der Standard-Port für HTTPS?",
             "Welche Zahl ist die Basis des Hexadezimalsystems?",
             "Was ist das Ergebnis von 2^10?",
             "Wie viele Bits hat ein Byte?",

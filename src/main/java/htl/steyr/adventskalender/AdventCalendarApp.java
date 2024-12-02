@@ -23,7 +23,7 @@ public class AdventCalendarApp extends Application {
     // Liste der Rätsel
     private final List<String> puzzles = new ArrayList<>(List.of(
             "Was ist die Binärdarstellung von 42?",
-            "Wie heißt der Vorgänger von Java?",
+            "Wie heieeßt der Vorgänger von Java?",
             "Was ist die Zeitkomplexität von Quicksort im Durchschnitt?",
             "Was ist die höchste Zahl, die ein 8-Bit-Integer speichern kann?",
             "Was ist 111 in dezimaler Darstellung?",

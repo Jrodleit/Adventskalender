@@ -127,7 +127,7 @@ public class AdventCalendarApp extends Application {
         } else {
             // Zufälliges Bild anzeigen
             String[] imagePaths = {
-                    "/images/image1.png",
+                    "/images/image1.jpg",
                     "/images/image2.png",
                     "/images/image3.png",
                     "/images/image4.png",

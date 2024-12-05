@@ -81,7 +81,7 @@
               <mainClass>htl.steyr.adventskalender.AdventCalendarApp</mainClass>
             </manifest>
           </archive>
-          <finalName>advent-calendar</finalName>
+          <finalName>adventskalender</finalName>
         </configuration>
       </plugin>
     </plugins>
